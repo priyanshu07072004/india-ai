@@ -6,14 +6,28 @@ import CountdownTimer from './CountdownTimer';
 
 export default function Hero() {
   return (
-    <div className="relative isolate bg-gradient-to-b from-blue-100 to-white pt-10">
+    <div className="relative isolate pt-10 min-h-[90vh] flex flex-col justify-center">
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 -z-10 overflow-hidden w-full h-full"
+        style={{
+          backgroundImage: 'url("/iit.jpeg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          backgroundRepeat: 'no-repeat',
+          opacity: '0.9',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 via-blue-900/60 to-black/70"></div>
+      </div>
+      
       {/* Background decorations */}
       <div
         className="absolute inset-x-0 top-20 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
       >
         <div
-          className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+          className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-10 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           style={{
             clipPath:
               'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
@@ -21,7 +35,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="pt-24 pb-16 sm:pt-32 sm:pb-24 lg:pb-32">
+      <div className="py-16 sm:py-20 lg:py-24 flex-grow flex items-center">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <motion.div
@@ -29,14 +43,14 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+              <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
                 2026 First International Conference on 
-                <span className="text-blue-600 block mt-1">
+                <span className="text-blue-300 block mt-1">
                   Innovations and Developments in Intelligent Applications with AI
                 </span>
-                <span className="text-2xl sm:text-3xl mt-2 block">(INDIA-AI)</span>
+                <span className="text-2xl sm:text-3xl mt-2 block text-white">(INDIA-AI)</span>
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-gray-200">
                 February 14–15, 2026 | NITRA Technical Campus, Ghaziabad, India | Hybrid Mode
               </p>
               
@@ -53,28 +67,28 @@ export default function Hero() {
                 </Link>
                 <Link
                   href="/about"
-                  className="rounded-md bg-gray-100 px-6 py-3 text-base font-semibold text-gray-800 shadow-sm hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-100"
+                  className="rounded-md bg-white/80 px-6 py-3 text-base font-semibold text-gray-800 shadow-sm hover:bg-white/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-100"
                 >
                   Learn More
                 </Link>
               </div>
               
-              <div className="mt-12 border-t border-gray-200 pt-8 flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="mt-12 border-t border-white/30 pt-8 flex flex-col sm:flex-row items-center justify-center gap-6">
                 <div className="text-center">
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-gray-500">Organized by</h2>
+                  <h2 className="text-sm font-semibold uppercase tracking-wider text-gray-200">Organized by</h2>
                   <div className="mt-1 flex flex-wrap justify-center gap-4">
-                    <div className="h-12 w-32 bg-gray-200 flex items-center justify-center rounded">
-                      NITRA Tech
+                    <div className="h-12 w-32 bg-white/80 flex items-center justify-center rounded shadow-md">
+                      <span className="font-semibold text-gray-800">NITRA Tech</span>
                     </div>
-                    <div className="h-12 w-32 bg-gray-200 flex items-center justify-center rounded">
-                      AI Tech Community
+                    <div className="h-12 w-32 bg-white/80 flex items-center justify-center rounded shadow-md">
+                      <span className="font-semibold text-gray-800">AI Tech Community</span>
                     </div>
                   </div>
                 </div>
                 
                 <div className="text-center">
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-gray-500">Mode</h2>
-                  <p className="mt-1 text-lg font-medium text-gray-900">Hybrid (Online & Offline)</p>
+                  <h2 className="text-sm font-semibold uppercase tracking-wider text-gray-200">Mode</h2>
+                  <p className="mt-1 text-lg font-medium text-white">Hybrid (Online & Offline)</p>
                 </div>
               </div>
             </motion.div>

@@ -44,31 +44,31 @@ export default function CountdownTimer() {
   return (
     <div className="grid grid-cols-4 gap-2 md:gap-4 text-center max-w-2xl mx-auto">
       <div className="flex flex-col items-center">
-        <div className="bg-white shadow-lg rounded-lg p-3 md:p-6 w-full">
+        <div className="bg-white/90 shadow-lg rounded-lg p-3 md:p-6 w-full">
           <div className="text-2xl md:text-4xl font-bold text-blue-600">{timeLeft.days}</div>
         </div>
-        <div className="mt-2 text-xs md:text-sm font-medium">Days</div>
+        <div className="mt-2 text-xs md:text-sm font-medium text-white">Days</div>
       </div>
       
       <div className="flex flex-col items-center">
-        <div className="bg-white shadow-lg rounded-lg p-3 md:p-6 w-full">
+        <div className="bg-white/90 shadow-lg rounded-lg p-3 md:p-6 w-full">
           <div className="text-2xl md:text-4xl font-bold text-blue-600">{timeLeft.hours}</div>
         </div>
-        <div className="mt-2 text-xs md:text-sm font-medium">Hours</div>
+        <div className="mt-2 text-xs md:text-sm font-medium text-white">Hours</div>
       </div>
       
       <div className="flex flex-col items-center">
-        <div className="bg-white shadow-lg rounded-lg p-3 md:p-6 w-full">
+        <div className="bg-white/90 shadow-lg rounded-lg p-3 md:p-6 w-full">
           <div className="text-2xl md:text-4xl font-bold text-blue-600">{timeLeft.minutes}</div>
         </div>
-        <div className="mt-2 text-xs md:text-sm font-medium">Minutes</div>
+        <div className="mt-2 text-xs md:text-sm font-medium text-white">Minutes</div>
       </div>
       
       <div className="flex flex-col items-center">
-        <div className="bg-white shadow-lg rounded-lg p-3 md:p-6 w-full">
+        <div className="bg-white/90 shadow-lg rounded-lg p-3 md:p-6 w-full">
           <div className="text-2xl md:text-4xl font-bold text-blue-600">{timeLeft.seconds}</div>
         </div>
-        <div className="mt-2 text-xs md:text-sm font-medium">Seconds</div>
+        <div className="mt-2 text-xs md:text-sm font-medium text-white">Seconds</div>
       </div>
     </div>
   );
