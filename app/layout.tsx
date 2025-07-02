@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,8 +20,7 @@ export const metadata: Metadata = {
   description: "First International Conference on Innovations and Developments in Intelligent Applications with AI (INDIA-AI) - February 14–15, 2026 at NITRA Technical Campus, Ghaziabad, India",
 };
 
-import Header from './components/Header';
-import Footer from './components/Footer';
+
 
 export default function RootLayout({
   children,
@@ -26,12 +28,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
       >
         <Header />
-        <main>
+        <main className="min-h-screen">
           {children}
         </main>
         <Footer />

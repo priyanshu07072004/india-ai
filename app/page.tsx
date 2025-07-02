@@ -6,7 +6,7 @@ import CTASection from "./components/CTASection";
 
 export default function Home() {
   return (
-    <div className="mt-16">
+    <div className="pt-16">
       <Hero />
       <AboutConference />
       <ConferenceTracks />

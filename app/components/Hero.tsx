@@ -6,10 +6,10 @@ import CountdownTimer from './CountdownTimer';
 
 export default function Hero() {
   return (
-    <div className="relative isolate bg-gradient-to-b from-blue-100 to-white">
+    <div className="relative isolate bg-gradient-to-b from-blue-100 to-white pt-10">
       {/* Background decorations */}
       <div
-        className="absolute inset-x-0 top-40 -z-10 transform-gpu overflow-hidden blur-3xl"
+        className="absolute inset-x-0 top-20 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
       >
         <div

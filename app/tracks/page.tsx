@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function TracksPage() {
   return (
-    <div className="mt-28 mb-16">
+    <div className="pt-28 pb-16 bg-gradient-to-b from-blue-100 to-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Conference Tracks</h1>
