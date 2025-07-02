@@ -18,69 +18,70 @@ export default function CommitteePage() {
         
         <div className="mx-auto mt-16 max-w-2xl lg:max-w-5xl">
           <section>
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Chief Patrons</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Chief Patron(s)</h2>
             <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              {/* These are placeholder names. Replace with actual committee members */}
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Anand Kumar</h3>
-                <p className="mt-2 text-gray-600">Vice-Chancellor, University Name</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Dr. Rajesh Sharma</h3>
-                <p className="mt-2 text-gray-600">Director, NITRA Technical Campus</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Sunita Patel</h3>
-                <p className="mt-2 text-gray-600">Chairperson, AI Technical and Educational Community for Research</p>
+                <h3 className="text-lg font-semibold text-gray-900">Shri Vidit Jain</h3>
+                <p className="mt-2 text-gray-600">Chairman, NITRA Technical Campus (NTC), Ghaziabad, India</p>
               </div>
             </div>
           </section>
           
           <section className="mt-16">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">General Chairs</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Patron(s)</h2>
             <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Dr. Vikram Singh</h3>
-                <p className="mt-2 text-gray-600">Professor, Computer Science Department, NITRA Technical Campus</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) B.K Sharma</h3>
+                <p className="mt-2 text-gray-600">Director, NITRA Technical Campus (NTC), Ghaziabad, India</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Dr. Priya Gupta</h3>
-                <p className="mt-2 text-gray-600">Associate Professor, AI Research Division, University Name</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Sanjay Kumar Singh</h3>
+                <p className="mt-2 text-gray-600">IIT BHU, India</p>
               </div>
             </div>
           </section>
           
           <section className="mt-16">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Technical Program Chairs</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Honorary Chair(s)</h2>
             <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Dr. Amit Verma</h3>
-                <p className="mt-2 text-gray-600">Professor, AI and Machine Learning, International University</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Thippa Reddy Gadekallu</h3>
+                <p className="mt-2 text-gray-600">Zhejiang A&F University, Hangzhou, China</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Dr. Nisha Sharma</h3>
-                <p className="mt-2 text-gray-600">Associate Professor, Computer Vision, Technology Institute</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Dr. Deepak Mishra</h3>
-                <p className="mt-2 text-gray-600">Professor, NLP Research, NITRA Technical Campus</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Szu-Yin Lin</h3>
+                <p className="mt-2 text-gray-600">National Yang Ming Chiao Tung University, Hsinchu, Taiwan</p>
               </div>
             </div>
           </section>
           
           <section className="mt-16">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Track Chairs</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Technical Program Chair(s)</h2>
+            <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Aman Singh</h3>
+                <p className="mt-2 text-gray-600">Universidad Europea del Atlantico, Santander, Spain</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900">Dr. Pratheepan Yogarajah</h3>
+                <p className="mt-2 text-gray-600">Ulster University, United Kingdom</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900">Dr. Priyanka Chaurasia</h3>
+                <p className="mt-2 text-gray-600">Ulster University, United Kingdom</p>
+              </div>
+            </div>
+          </section>
+          
+          <section className="mt-16">
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Track Chair(s)</h2>
             <div className="mt-6 space-y-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">AI in NLP</h3>
+                <h3 className="text-lg font-semibold text-gray-900">AI in Natural Language Processing</h3>
                 <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
-                    <h4 className="font-medium text-gray-900">Dr. Rahul Jain</h4>
-                    <p className="text-sm text-gray-600">Professor, NLP Department, University Name</p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-gray-900">Dr. Manisha Patel</h4>
-                    <p className="text-sm text-gray-600">Associate Professor, Computational Linguistics, Institute Name</p>
+                    <h4 className="font-medium text-gray-900">Dr. K. Vimal Kumar</h4>
+                    <p className="text-sm text-gray-600">University of Limerick, Castletroy, Co. Limerick, Ireland</p>
                   </div>
                 </div>
               </div>
@@ -89,12 +90,12 @@ export default function CommitteePage() {
                 <h3 className="text-lg font-semibold text-gray-900">AI in Healthcare and Smart Systems</h3>
                 <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
-                    <h4 className="font-medium text-gray-900">Dr. Sanjay Kumar</h4>
-                    <p className="text-sm text-gray-600">Professor, Healthcare Informatics, Medical Institute</p>
+                    <h4 className="font-medium text-gray-900">Dr. Priyanka Verma</h4>
+                    <p className="text-sm text-gray-600">University of Galway, Ireland</p>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900">Dr. Ananya Singh</h4>
-                    <p className="text-sm text-gray-600">Associate Professor, Smart Healthcare Systems, Technology University</p>
+                    <h4 className="font-medium text-gray-900">Dr. USN Raju</h4>
+                    <p className="text-sm text-gray-600">National Institute of Technology Warangal, India</p>
                   </div>
                 </div>
               </div>
@@ -103,12 +104,12 @@ export default function CommitteePage() {
                 <h3 className="text-lg font-semibold text-gray-900">AI in Industrial Applications and Optimization</h3>
                 <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
-                    <h4 className="font-medium text-gray-900">Dr. Ajay Mehta</h4>
-                    <p className="text-sm text-gray-600">Professor, Industrial AI, Engineering Institute</p>
+                    <h4 className="font-medium text-gray-900">Dr. Reham Mostafa</h4>
+                    <p className="text-sm text-gray-600">Mansoura University, Egypt</p>
                   </div>
                   <div>
-                    <h4 className="font-medium text-gray-900">Dr. Prachi Gupta</h4>
-                    <p className="text-sm text-gray-600">Associate Professor, Optimization Algorithms, NITRA Technical Campus</p>
+                    <h4 className="font-medium text-gray-900">Dr. Imad Rida</h4>
+                    <p className="text-sm text-gray-600">University of Technology of Compiègne, France</p>
                   </div>
                 </div>
               </div>
@@ -117,12 +118,8 @@ export default function CommitteePage() {
                 <h3 className="text-lg font-semibold text-gray-900">AI in Computer Vision</h3>
                 <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
-                    <h4 className="font-medium text-gray-900">Dr. Mohan Sharma</h4>
-                    <p className="text-sm text-gray-600">Professor, Computer Vision, Vision Research Institute</p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-gray-900">Dr. Ritu Agarwal</h4>
-                    <p className="text-sm text-gray-600">Associate Professor, Image Processing, Technology University</p>
+                    <h4 className="font-medium text-gray-900">Dr. Gautam Kumar</h4>
+                    <p className="text-sm text-gray-600">NIT Delhi, India</p>
                   </div>
                 </div>
               </div>
@@ -151,28 +148,40 @@ export default function CommitteePage() {
             <h2 className="text-2xl font-bold tracking-tight text-gray-900">International Advisory Committee</h2>
             <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. John Smith</h3>
-                <p className="mt-2 text-gray-600">Stanford University, USA</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Hemant Kumar Rath</h3>
+                <p className="mt-2 text-gray-600">Senior Researcher, TCS Research, Tata Consultancy Services, India</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Maria Rodriguez</h3>
-                <p className="mt-2 text-gray-600">University of Cambridge, UK</p>
+                <h3 className="text-lg font-semibold text-gray-900">Dr. Shally</h3>
+                <p className="mt-2 text-gray-600">National Institute of Technology, Delhi, India</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Hiroshi Tanaka</h3>
-                <p className="mt-2 text-gray-600">University of Tokyo, Japan</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) V. K. Panchal</h3>
+                <p className="mt-2 text-gray-600">Head of Department, School of Advanced Sciences, VIT Bhopal University, India</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Sophie Chen</h3>
-                <p className="mt-2 text-gray-600">Tsinghua University, China</p>
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Wen-Huang Cheng</h3>
+                <p className="mt-2 text-gray-600">National Yang Ming Chiao Tung University, Hsinchu, Taiwan</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Klaus Mueller</h3>
-                <p className="mt-2 text-gray-600">Technical University of Munich, Germany</p>
+                <h3 className="text-lg font-semibold text-gray-900">Dr. Rojalina Priyadarshini</h3>
+                <p className="mt-2 text-gray-600">Asst. Professor, Computer Science Department, KIIT University, Bhubaneswar, India</p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-lg font-semibold text-gray-900">Prof. Sarah Johnson</h3>
-                <p className="mt-2 text-gray-600">University of Melbourne, Australia</p>
+                <h3 className="text-lg font-semibold text-gray-900">Dr. Ghanshyam Sharma</h3>
+                <p className="mt-2 text-gray-600">National Institute of Technology, Delhi, India</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Srikanta Patnaik</h3>
+                <p className="mt-2 text-gray-600">Professor, Department of Computer Science, SOA University, Bhubaneswar, India</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900">Dr. Sabina Jeschke</h3>
+                <p className="mt-2 text-gray-600">Professor, Machine Elements and Technical Logistics, Helmut Schmidt University, Hamburg, Germany</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-lg font-semibold text-gray-900">Prof. (Dr.) Doo-Soon Park</h3>
+                <p className="mt-2 text-gray-600">Department of Computer Software Engineering, Soonchunhyang University, Asan, South Korea</p>
               </div>
             </div>
           </section>
