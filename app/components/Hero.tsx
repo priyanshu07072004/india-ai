@@ -11,7 +11,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 -z-10 overflow-hidden w-full h-full"
         style={{
-          backgroundImage: 'url("/iit.jpeg")',
+          backgroundImage: "url('/nitra.jpeg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',

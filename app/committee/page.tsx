@@ -127,7 +127,7 @@ export default function CommitteePage() {
           </section>
           
           <section className="mt-16">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Organizing Committee</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Editorial Chair</h2>
             <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-lg font-semibold text-gray-900">Dr. Ravi Kumar</h3>
