@@ -1,31 +1,20 @@
+
 'use client';
 
 import { motion } from 'framer-motion';
 
 const dates = [
   {
-    date: 'November 15, 2025',
-    description: 'Paper Submission Deadline',
+    date: 'October 30, 2025',
+    description: 'Submission date',
   },
   {
-    date: 'December 20, 2025',
-    description: 'Notification of Acceptance',
+    date: 'December 05, 2025',
+    description: 'Acceptance Notification',
   },
   {
-    date: 'January 10, 2026',
-    description: 'Camera Ready Paper Submission',
-  },
-  {
-    date: 'January 25, 2026',
-    description: 'Early Bird Registration Deadline',
-  },
-  {
-    date: 'February 5, 2026',
-    description: 'Final Registration Deadline',
-  },
-  {
-    date: 'February 14-15, 2026',
-    description: 'Conference Dates',
+    date: 'December 15, 2025',
+    description: 'Final paper submission',
   },
 ];
 
@@ -62,15 +51,6 @@ export default function ImportantDates() {
               </motion.li>
             ))}
           </ul>
-          
-          <div className="mt-8 flex justify-center">
-            <a
-              href="/dates"
-              className="text-sm font-semibold leading-6 text-blue-600 hover:text-blue-500"
-            >
-              View detailed schedule <span aria-hidden="true">→</span>
-            </a>
-          </div>
         </div>
       </div>
     </div>
