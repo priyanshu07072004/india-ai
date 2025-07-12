@@ -9,7 +9,6 @@ const navigation = {
     { name: 'About', href: '/about' },
     { name: 'Committee', href: '/committee' },
     { name: 'Tracks', href: '/tracks' },
-    { name: 'Important Dates', href: '/dates' },
     { name: 'Call for Papers', href: '/call-for-papers' },
     { name: 'Registration', href: '/registration' },
     { name: 'Venue', href: '/venue' },

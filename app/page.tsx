@@ -1,5 +1,4 @@
 import Hero from "./components/Hero";
-import ImportantDates from "./components/ImportantDates";
 import ConferenceTracks from "./components/ConferenceTracks";
 import AboutConference from "./components/AboutConference";
 import CTASection from "./components/CTASection";
@@ -12,7 +11,6 @@ export default function Home() {
       <LogoSection />
       <AboutConference />
       <ConferenceTracks />
-      <ImportantDates />
       <CTASection />
     </div>
   );
