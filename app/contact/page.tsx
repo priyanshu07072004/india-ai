@@ -33,8 +33,8 @@ export default function ContactPage() {
                   <div className="ml-3 text-base text-gray-600">
                     <p>Email:</p>
                     <p className="mt-1 font-medium text-gray-900">
-                      <a href="mailto:indiaai2026@nitra.ac.in" className="hover:underline">
-                        indiaai2026@nitra.ac.in
+                      <a href="mailto:indiaai.conf@gmail.com" className="hover:underline">
+                        indiaai.conf@gmail.com
                       </a>
                     </p>
                   </div>
@@ -46,7 +46,7 @@ export default function ContactPage() {
                   </div>
                   <div className="ml-3 text-base text-gray-600">
                     <p>Phone:</p>
-                    <p className="mt-1 font-medium text-gray-900">+91-XXXXXXXXXX</p>
+                    <p className="mt-1 font-medium text-gray-900">+91-7734992121</p>
                   </div>
                 </div>
                 
@@ -71,8 +71,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-base font-medium text-gray-900">Paper Submissions:</h3>
                     <p className="mt-1 text-sm text-gray-600">
-                      <a href="mailto:papers@indiaai2026.org" className="text-blue-600 hover:text-blue-500">
-                        papers@indiaai2026.org
+                      <a href="mailto:dr.ankit.vidyarthi@gmail.com" className="text-blue-600 hover:text-blue-500">
+                        dr.ankit.vidyarthi@gmail.com
                       </a>
                     </p>
                   </div>
@@ -80,8 +80,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-base font-medium text-gray-900">Registration:</h3>
                     <p className="mt-1 text-sm text-gray-600">
-                      <a href="mailto:registration@indiaai2026.org" className="text-blue-600 hover:text-blue-500">
-                        registration@indiaai2026.org
+                      <a href="mailto:shilpaishu06@gmail.com" className="text-blue-600 hover:text-blue-500">
+                        shilpaishu06@gmail.com
                       </a>
                     </p>
                   </div>
@@ -89,17 +89,15 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-base font-medium text-gray-900">Accommodation and Travel:</h3>
                     <p className="mt-1 text-sm text-gray-600">
-                      <a href="mailto:accommodation@indiaai2026.org" className="text-blue-600 hover:text-blue-500">
-                        accommodation@indiaai2026.org
-                      </a>
+                      TBA
                     </p>
                   </div>
                   
                   <div>
                     <h3 className="text-base font-medium text-gray-900">Sponsorship Opportunities:</h3>
                     <p className="mt-1 text-sm text-gray-600">
-                      <a href="mailto:sponsorship@indiaai2026.org" className="text-blue-600 hover:text-blue-500">
-                        sponsorship@indiaai2026.org
+                      <a href="mailto:aitechinfosociety@gmail.com" className="text-blue-600 hover:text-blue-500">
+                        aitechinfosociety@gmail.com
                       </a>
                     </p>
                   </div>
@@ -109,20 +107,19 @@ export default function ContactPage() {
               <div className="mt-12">
                 <h2 className="text-xl font-bold tracking-tight text-gray-900">Connect With Us</h2>
                 <div className="mt-4 flex space-x-6">
+                  {/* Social links remain unchanged */}
                   <a href="#" className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">Twitter</span>
                     <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                     </svg>
                   </a>
-
                   <a href="#" className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">LinkedIn</span>
                     <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                     </svg>
                   </a>
-
                   <a href="#" className="text-gray-400 hover:text-gray-500">
                     <span className="sr-only">Facebook</span>
                     <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -136,6 +133,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-2xl font-bold tracking-tight text-gray-900">Send us a message</h2>
               <form className="mt-8 space-y-6">
+                {/* Form remains unchanged */}
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium leading-6 text-gray-900">
                     Name
@@ -242,7 +240,7 @@ export default function ContactPage() {
               <div className="py-6">
                 <h3 className="text-lg font-medium text-gray-900">How can I get an invitation letter for visa purposes?</h3>
                 <p className="mt-2 text-base text-gray-600">
-                  After registration, you can request an invitation letter by emailing indiaai2026@nitra.ac.in with your registration details. Please check the <a href="/venue" className="text-blue-600 hover:text-blue-500">Venue</a> page for more visa information.
+                  After registration, you can request an invitation letter by emailing <a href="mailto:indiaai.conf@gmail.com" className="text-blue-600 hover:text-blue-500">indiaai.conf@gmail.com</a> with your registration details. Please check the <a href="/venue" className="text-blue-600 hover:text-blue-500">Venue</a> page for more visa information.
                 </p>
               </div>
             </div>
